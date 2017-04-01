@@ -2,7 +2,7 @@
 # SimpleCV
 --------------------------
 
-[![Build Status](https://travis-ci.org/elieltavares/SimpleCV.png?branch=develop)](https://travis-ci.org/elieltvares/SimpleCV)
+[![Build Status](https://travis-ci.org/elieltavares/SimpleCV.png?branch=develop)](https://travis-ci.org/elieltavares/SimpleCV)
 
 
 Quick Links:
