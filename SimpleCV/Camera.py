@@ -406,7 +406,7 @@ class Camera(FrameSource):
     pygame_buffer = ""
 
 
-    prop_map = {"width": CV_CAP_PROP_FRAME_WIDTH,
+    prop_map = {"width": cv.CAP_PROP_FRAME_WIDTH,
         "height": cv.CAP_PROP_FRAME_HEIGHT,
         "brightness": cv.CAP_PROP_BRIGHTNESS,
         "contrast": cv.CAP_PROP_CONTRAST,
