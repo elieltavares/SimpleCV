@@ -1,6 +1,6 @@
 numpy
 scipy
 pillow
-ipython
+IPython==4
 svgwrite
 pygame>=1.9.1release
