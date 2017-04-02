@@ -55,7 +55,7 @@ try:
     import cv2.cv as cv
 except ImportError:
     try:
-        import cv
+        import cv2 as cv
     except ImportError:
         raise ImportError("Cannot load OpenCV library which is required by SimpleCV")
 
