@@ -519,7 +519,7 @@ class Camera(FrameSource):
             #set any properties in the constructor
             for p in prop_set.keys():
                 if p in self.prop_map:
-                    cv.SetCaptureProperty(self.capture, self.prop_map[p], prop_set[p])
+                    self.capture.set(self.prop_map[p], prop_set[p])
 
         if (threaded):
             self.threaded = True
