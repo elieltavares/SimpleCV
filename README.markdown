@@ -99,11 +99,11 @@ Install with pip
 
 Install using clone of SimpleCV repository
 
-    sudo apt-get install ipython python-opencv python-scipy python-numpy python-pygame python-setuptools git
+    sudo apt-get install ipython python-opencv python-nose python-imaging python-scipy python-numpy python-pygame python-setuptools git
+    sudo apt-get install libcv2.4 libcvaux2.4 libhighgui2.4 python-opencv libcv-dev libcvaux-dev libhighgui-dev
     git clone https://github.com/sightmachine/SimpleCV.git
     cd SimpleCV/
     sudo pip install -r requirements.txt
-    sudo apt-get install libcv2.4 libcvaux2.4 libhighgui2.4 python-opencv libcv-dev libcvaux-dev libhighgui-dev
     sudo python setup.py install
 
 then just run 'simplecv' from the shell.
